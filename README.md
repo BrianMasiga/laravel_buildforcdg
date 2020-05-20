@@ -47,25 +47,18 @@ computed: {
 
 <!-- payload Data -->
 
-model                       update
 
------------------           ------------------
+| model                 | update                |
+| -------------         |:---------------------:|
+| constituencies        | updateConstituencies  |
+| country               | updateCounty          |
+| county                | updateCounty          |
+| schools               | updateSchool          |
+| score_sets            | updateScoreSets       |
+| score_sheet           | updateScoreSheet      |
+| ward                  | updateWard            |
+| statistics            | updateWard            |
 
-constituencies              updateConstituencies
-
-country                     updateCountry
-
-county                      updateCounty
-
-schools                     updateSchool
-
-score_sets                  updateScoreSets
-
-score_sheet                 updateScoreSheet
-
-ward                        updateWard
-
-statistics                  updateStatistics
 
 
 - [please refer to  Vuex docs](https://vuex.vuejs.org/guide/).
