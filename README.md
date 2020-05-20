@@ -12,7 +12,9 @@
 Clone the repository
 
 composer install
+
 npm install
+
 npm run watch
 
 
@@ -21,10 +23,15 @@ npm run watch
 
 <!-- This will get data from user route and update users array in vuex -->
 getData() {
+
     var payload = {
+
         model: 'user',
+
         update: 'updateUsersList' 
+
     }
+    
     this.$store.dispatch('getItems', payload)
 }
 
