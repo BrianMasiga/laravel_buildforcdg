@@ -17,6 +17,10 @@ npm install
 
 npm run watch
 
+php artisan migrate
+
+php artisan db:seed
+
 
 
 ## Make axios request
@@ -58,8 +62,6 @@ computed: {
 | score_sheet           | updateScoreSheet      |
 | ward                  | updateWard            |
 | statistics            | updateWard            |
-
-
 
 - [please refer to  Vuex docs](https://vuex.vuejs.org/guide/).
 You can also checkout the store folder in resources/js/store to get an idea of how this works
