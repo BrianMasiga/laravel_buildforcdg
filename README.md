@@ -21,7 +21,9 @@ npm run watch
 
 ## Make axios request
 
-<!-- This will get data from user route and update users array in vuex -->
+This will get data from user route and update users array in vuex
+
+
 getData() {
 
     var payload = {
@@ -31,12 +33,14 @@ getData() {
         update: 'updateUsersList' 
 
     }
-    
+
     this.$store.dispatch('getItems', payload)
 }
 
-<!-- After getting the data, you can get the users from this computed function -->
-<!-- You have to import mapState at the top of your script tags. Checkout Example.vue -->
+After getting the data, you can get the users from this computed function
+
+You have to import mapState at the top of your script tags. Checkout Example.vue
+
 computed: {
     ...mapState(['users'])
 }
@@ -44,15 +48,25 @@ computed: {
 <!-- payload Data -->
 
 model                       update
+
 -----------------           ------------------
+
 constituencies              updateConstituencies
+
 country                     updateCountry
+
 county                      updateCounty
+
 schools                     updateSchool
+
 score_sets                  updateScoreSets
+
 score_sheet                 updateScoreSheet
+
 ward                        updateWard
+
 statistics                  updateStatistics
+
 
 - [please refer to  Vuex docs](https://vuex.vuejs.org/guide/).
 You can also checkout the store folder in resources/js/store to get an idea of how this works
