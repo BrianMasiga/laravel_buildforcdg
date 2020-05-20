@@ -12,4 +12,28 @@ export default {
     users(state) {
         return state.users
     },
+    constituencies(state) {
+        return state.constituencies
+    },
+    country(state) {
+        return state.country
+    },
+    county(state) {
+        return state.county
+    },
+    schools(state) {
+        return state.schools
+    },
+    score_sets(state) {
+        return state.score_sets
+    },
+    score_sheet(state) {
+        return state.score_sheet
+    },
+    ward(state, ) {
+        return state.ward
+    },
+    statistics(state) {
+        return state.statistics
+    },
 }
